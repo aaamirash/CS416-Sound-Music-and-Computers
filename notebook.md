@@ -10,3 +10,8 @@ don't get filtered out of a sound.
 
 10/29: Playing around with creating a python program that plays a canon but running into issues with having multiple lines 
 play at the same time. I might look into multithreading.
+
+11/10: I'm starting to decide what kind of final project ideas sound good. A voice part changer sounds interesting. It would 
+involve some kind of frequency control where certain frequency ranges are adjusted, mainly the fundamental. I'm also considering
+making some kind of canon generative player. There would be simple harmonies like I IV V I and it would pick notes from each chord
+and play it in some kind of assigned rhythm. The user could then choose to offset the melody creating the canon. Food for thought.
