@@ -15,3 +15,7 @@ play at the same time. I might look into multithreading.
 involve some kind of frequency control where certain frequency ranges are adjusted, mainly the fundamental. I'm also considering
 making some kind of canon generative player. There would be simple harmonies like I IV V I and it would pick notes from each chord
 and play it in some kind of assigned rhythm. The user could then choose to offset the melody creating the canon. Food for thought.
+
+11/15: Last class we went over MIDI. I've had a lot of enounters with MIDI in my time. Key take aways:
+It uses a 5-pin DIN connector with an 8N1 protocol at 31,250 bps, with 1-3 byte messages consisting of status and data bytes.
+Supports:  note on/off (with velocity), pitch bend, controllers for volume/pan/expression, and instrument sound changes.
