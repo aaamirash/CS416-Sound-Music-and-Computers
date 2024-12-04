@@ -19,3 +19,7 @@ and play it in some kind of assigned rhythm. The user could then choose to offse
 11/15: Last class we went over MIDI. I've had a lot of enounters with MIDI in my time. Key take aways:
 It uses a 5-pin DIN connector with an 8N1 protocol at 31,250 bps, with 1-3 byte messages consisting of status and data bytes.
 Supports:  note on/off (with velocity), pitch bend, controllers for volume/pan/expression, and instrument sound changes.
+
+12/3: Today I tried to create my own pitch analysis using FFT's and measuring magnitude of
+peaks. I was able to get within the ball park but it turned out to be messy business. I'll
+probably turn to a library that is better at it.
