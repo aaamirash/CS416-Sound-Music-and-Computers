@@ -23,3 +23,6 @@ Supports:  note on/off (with velocity), pitch bend, controllers for volume/pan/e
 12/3: Today I tried to create my own pitch analysis using FFT's and measuring magnitude of
 peaks. I was able to get within the ball park but it turned out to be messy business. I'll
 probably turn to a library that is better at it.
+
+12/7: Wrapping up my course work today. My course project is working reasonably well. Lower frequencies are harder to capture and identify accurately.
+I think this could be due to lower frequencies having larger wavelengths and having lower energy.
