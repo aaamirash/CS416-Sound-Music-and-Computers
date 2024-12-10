@@ -5,7 +5,8 @@
 Assignment overviews:
 
 Week 1/2: 
-  Clipped: Produced a soundwave using sine wave formula and then created a clipped version.
+  Clipped: Produced a soundwave using sine wave formula and then created a clipped version
+  at a specified magnitude.
 
 Week 2/3:
    Chord builder: A personal small project playing around with stacking notes in an array
