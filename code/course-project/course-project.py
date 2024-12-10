@@ -12,6 +12,9 @@
 #for me.
 #https://www.makeartwithpython.com/blog/vocal-range-python-music21/
 
+#DEMO:
+#https://media.pdx.edu/media/t/1_ch8jx0nh
+
 import aubio
 from aubio import pitch
 import queue
@@ -107,7 +110,7 @@ def categorize_voice(filtered_pitch_counts):
 
     #categorizing logic
     if highest_freq and lowest_freq:
-        if 65.41 <= lowest_freq <= 220.00 and 220.00 <= highest_freq <= 440.00:
+        if 65.41 <= lowest_freq <= 220.00 and 220.00 <= highest_freq <= 400.00:
             category = "You are a Bass"
         elif 110.00 <= lowest_freq <= 587.33 and 146.83 <= highest_freq <= 587.33:
             category = "You are a Tenor"
