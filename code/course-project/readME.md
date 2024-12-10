@@ -6,6 +6,8 @@ https://visualstudio.microsoft.com/visual-cpp-build-tools/
 I'm not too sure how this would with a linux machine or mac so
 I will include a screen recording of how it works on my windows pc.
 
+PROJECT DEMO: https://media.pdx.edu/media/t/1_ch8jx0nh
+
 This program determines the vocal range you are singing in live.
 It stores the frequencies aka pitches and then determines where your voice
 lies. It has some simple logic to determine the voice part you would have in a 
