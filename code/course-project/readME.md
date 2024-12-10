@@ -1,4 +1,11 @@
 Voice Part/ Vocal Range Analyzer:
+
+IMPORTANT: Please install Microsoft C++ Build Tools in order to use the aubio
+python library. Select development tools when installing. 
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
+I'm not too sure how this would with with a linux or mac pc so
+I will include a screen recording of how it works on my windows pc.
+
 This program determines the vocal range you are singing in live.
 It stores the frequencies aka pitches and then determines where your voice
 lies. It has some simple logic to determine the voice part you would have in a 
